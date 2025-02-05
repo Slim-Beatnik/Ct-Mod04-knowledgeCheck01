@@ -1,4 +1,4 @@
-# ct-mod01-knowledgeCheck01-HTML/CSS
+# ct-mod04-knowledgeCheck01-HTML/CSS
 html assignment (html mod. L03 - knowledge check)
 
 The assignment requirements are:
