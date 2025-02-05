@@ -1,0 +1,15 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+  }
+  
+  p {
+    color: green;
+    font-size: 18px;
+  }
+  
+  .container {
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+  }

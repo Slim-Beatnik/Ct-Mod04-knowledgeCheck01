@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <section id="home">
+        <h2>Welcome to Our Home Page</h2>
+        <p>Introduction to our site.</p>
+    </section>
+    <section id="services">
+        <h2>About Us</h2>
+        <p>Who we are and what we do.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>How to reach us:</p>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="name"   placeholder="Enter your name">
+            <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <p>Gender:</p>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" style="margin-right: 20px;">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            <p>Hobbies:</p>
+                <div>
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                    <label for="gaming">Gaming</label>
+                </div>
+        </form>
+    </section>
+</body>
+</html>
